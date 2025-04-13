@@ -14,7 +14,7 @@ html, body {
     font-family: 'Fira Code', monospace;
     line-height: 1.6;
   }
-  
+
   .page-wrapper {
     display: flex;
     flex-direction: column;
@@ -90,11 +90,11 @@ html, body {
   
   @media (max-width: 600px) {
     .container {
-      padding: 0.5rem;
+      padding: 0.4rem;
     }
   
     .footer-inner {
-      padding: 0 0.5rem;
+      padding: 0 0.4rem;
     }
   }
   
