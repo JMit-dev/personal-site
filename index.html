@@ -1,42 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jordan Mitacek - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-    <script type="importmap">
-    {
-        "imports": {
-            "three": "https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.module.js",
-            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.149.0/examples/jsm/"
-        }
-    }
-    </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jordanmitacek.com</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    </head>    
 <body>
-    <canvas id="grid-canvas"></canvas>
-    <canvas id="model-canvas"></canvas>
+    <div class="page-wrapper">
+    <div class="container">
+        <header>
+            <code>$ <span id="typed"></span><span class="cursor">█</span></code>
+        </header>
 
-    <section id="about">
-        <p>I'm Jordan, a passionate Computer Science student at Stony Brook University, driven by a love for learning and a knack for creating innovative solutions. My journey is about transforming curiosity into real-world applications, one project at a time. My goal? To learn by doing and build cool stuff along the way.</p>
-    </section>
+    <main>
+        <p>Welcome! This page serves as an overview of me and my online presence.</p>
+        <p>
+            I’m a Systems Integration Intern at Brookhaven National Laboratory and Computer Science major at Stony Brook University. I enjoy
+            building, automating, and reverse-engineering various projects especially related to low-level systems.
+          </p>
+          <p>
+            Here you can check out my main projects and contact info. You can also
+            download my <a href="./rsrc/Jordan_Mitacek_CV.pdf" target="_blank">résumé</a> to
+            see more about my background and experience.
+          </p>
+          
+          <h2>Projects</h2>
+          <ul>
+            <li>
+                 A lightweight, fast, and accurate Game Boy emulator: <a href="https://github.com/JMit-dev/nanoboy" target="_blank">nanoboy</a>.
+            </li>
+            <li>
+                <a href="https://github.com/JMit-dev/termplayer" target="_blank">termplayer</a>, an ASCII terminal video player
+              with controls and audio support.
+            </li>
+            <li>
+                <a href="https://github.com/JMit-dev/i8080-spaceinvaders-emulator" target="_blank">i8080 Space Invaders Emulator</a>: Emulates the
+              original arcade cabinet hardware at the CPU level.
+            </li>
+            <li>
+              A “DOOM / Wolfenstein” style <a href="https://github.com/JMit-dev/raycaster" target="_blank">raycaster</a> with a custom level editor.
+            </li>
+          </ul>
 
-    <section id="projects">
-        <p>Projects: <a href="https://github.com/Darkkid819" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a></p>
-    </section>
+          <h2>Papers</h2>
+          <ul>
+            <li>
+                <a href="./rsrc/Bluesky Control Software for Deposition Laboratory at NSLS.pdf" target="_blank">Bluesky Control Software for Deposition Laboratory at NSLS-II”</a>
+              <br />
+              A self-published report for my internship at Brookhaven National Laboratory.
+            </li>
+          </ul>
 
-    <section id="contact">
-        <div class="contact-content">
-            <p>Email: <a href='mailto&#58;jorda&#37;6&#69;&#46;%&#54;Dtiacek&#64;g&#109;ai&#108;&#46;c%6Fm' class="social-btn"><i class="fas fa-envelope"></i> Gmail</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/jordan-mitacek-2968a9326/" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+        <h2>Contact info</h2>
+        <ul>
+            <li>Send me an <a href="mailto:jordan.mitacek@gmail.com" target="_blank">email</a> (PGP fingerprint: <code>10FA30356B897CFCD58FFA422DB2884E6E91BBE4</code>).</li>
+            <li>See my projects on <a href="https://github.com/JMit-dev" target="_blank">GitHub</a>.</li>
+            <li>DM me on <a href="https://www.linkedin.com/in/jordanmitacek/" target="_blank">LinkedIn</a> or <a href="https://www.discord.com/users/270323675327234048" target="_blank">Discord</a>.</li>
+        </ul>
+    </main>
+</div>
+
+
+    <footer>
+        <div class="footer-inner">
+            <p>&copy; Jordan Mitacek</p>
         </div>
-    </section>          
+    </footer>
+</div>
 
-    <script type="module" src="script.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const text = "cat jordanmitacek.com";
+      const typed = document.getElementById("typed");
+      const mainContent = document.querySelector("main");
+      const footer = document.querySelector("footer");
+      
+      mainContent.style.visibility = "hidden";
+      footer.style.visibility = "hidden";
+
+      let index = 0;
+
+      function type() {
+        if (index < text.length) {
+          typed.textContent += text.charAt(index);
+          index++;
+          setTimeout(type, 100);
+        } else {
+          setTimeout(() => {
+            mainContent.style.visibility = "visible";
+            footer.style.visibility = "visible";
+          }, 300);
+        }
+      }
+      type();
+    });
+  </script> 
+
 </body>
 </html>

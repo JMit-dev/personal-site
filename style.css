@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+    background: #1A1B1D;
+    color: #D2D9DF;
+    font-family: 'Fira Code', monospace;
+    line-height: 1.6;
+  }
+  
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+  
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  footer {
+    background: #191A1C;
+    color: #777;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    margin-top: auto; 
+  }
+  
+  .footer-inner {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  header {
+    margin-bottom: 1rem;
+  }
+  
+  header code {
+    color: #D2D9DF;
+    font-size: 1.6rem;
+  }
+ 
+  a {
+    color: #e07a7a;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #D2D9DF;
+    text-decoration: underline;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    color: #D2D9DF;
+  }
+  
+  ul {
+    list-style: square;
+    padding-left: 1.5rem;
+  }
+  
+  .cursor {
+    display: inline-block;
+    animation: blink 1s steps(2, start) infinite;
+    color: #D2D9DF;
+  }
+  
+  #typed, .cursor {
+    white-space: pre;
+  }
+  
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 0.5rem;
+    }
+  
+    .footer-inner {
+      padding: 0 0.5rem;
+    }
+  }
+  
