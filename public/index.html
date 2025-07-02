@@ -4,12 +4,12 @@
     <head>
 	<meta name="generator" content="Hugo 0.147.9">
             <meta charset="utf-8" />
-    <title>terminalcv </title>
+    <title>jordanmitacek.com </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My terminal cv">
-    <meta property="og:title" content="terminalcv" />
+    <meta name="description" content="My personal site">
+    <meta property="og:title" content="jordanmitacek.com" />
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://localhost:1313/" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
@@ -54,15 +54,11 @@ jQuery(document).ready(function($) {
         work: "list work experience",
         education: "list education",
         skills: "list core skills",
-        softskills: "list soft skills",
-        languages: "list spoken languages",
+        
+        
         projects: "list projects",
-         
-            certifications: "list certifications",
         
         
-        
-            "newcommand": "This Section can have a different command name",
         
         
         
@@ -112,17 +108,17 @@ jQuery(document).ready(function($) {
 
     var whois = [
      
-        '[[b;grey;]Name:]\t\t\tJohn Doe\n' + 
-        '[[b;grey;]Profession:]\t\tUnknown\n' +
-        '[[b;grey;]Location:]\t\tSomewhere\n' +
+        '[[b;grey;]Name:]\t\t\tJordan Mitacek\n' + 
+        '[[b;grey;]Profession:]\t\tCS Student\n' +
+        '[[b;grey;]Location:]\t\tStony Brook University\n' +
         
-        '[[b;grey;]Email:]\t\t\tfoo@someemail.com\n' +
-        
-        
-        '[[b;grey;]Homepage:]\t\thttps:\/\/myHomePage.com\n' +
+        '[[b;grey;]Email:]\t\t\tjordan.mitacek@gmail.com\n' +
         
         
-        'Here you can write something catchy about yourself\n' +
+        '[[b;grey;]Homepage:]\t\thttps:\/\/jordanmitacek.com\n' +
+        
+        
+        'Interested in low level systems and graphics\nI like playing games and I am a musician\nalso... I use Arch BTW\n' +
         
         '\r',
     
@@ -133,17 +129,11 @@ jQuery(document).ready(function($) {
         let sMap = { 
              
                 
-                "github": "https:\/\/github.com",
+                "github": "https:\/\/github.com\/JMit-dev",
                 
-                "facebook": "https:\/\/facebook.com",
+                "linkedin": "https:\/\/linkedin.com\/in\/jordanmitacek",
                 
-                "myspace": "https:\/\/myspace.com",
-                
-                "hi5": "https:\/\/www.hi5.com",
-                
-                "instagram": "https:\/\/instagram.com",
-                
-                "Another social": "https:\/\/anothersocial.com",
+                "discord": "https:\/\/discord.com\/users\/270323675327234048",
                 
             
         };
@@ -193,50 +183,63 @@ jQuery(document).ready(function($) {
     }
     var certifications = [
     
-        
-            '---\n' +
-            '[[b;grey;]Example Cert]\n' +
-            'Date of Completion\n' +
-            
-            'Example Certifying Company\n' +
-            
-            
-            
-            'Badge: \thttps:\/\/www.link.to.badge\n' +
-            
-            '\r',
-        
-    
     ];
     
     var work = [
     
         
             '---\n' +
-            '[[b;red;]Job With Red Title]\n' +
-            '-\n' +
-            'somewhere\n' +
-            'August 2010 - Present\n' +
+            '[[b;gray;]Undergraduate Research]\n' +
+            'Stony Brook University\n' +
+            'Stony Brook, NY\n' +
+            'February 2025 - Present\n' +
             '\n' +
-            'Some description about this red title job' +
+            'Simulating recursive portals in real-time with OpenGL, mesh shaders, and stencil buffer sorcery!\nPushing hardware to its limits to make teleportation trivial.\nIt’s like Portal, but I wrote it!\n' +
             '\r',
         
             '---\n' +
-            '[[b;purple;]Job with purple title]\n' +
-            '-\n' +
-            'somewhere elese\n' +
-            'July 2000  - July 2010\n' +
+            '[[b;gray;]SULI Reasearch Internship]\n' +
+            'Brookhaven National Laboratory\n' +
+            'Upton, NY\n' +
+            'June 2025 - August 2025\n' +
             '\n' +
-            'Some description about this purple job' +
+            'Integrated Bluesky Queue Server into Phoebus, so scientists can run beamline experiments like it’s a playlist.\nBuilt a REST \u002b ZeroMQ bridge that streams live experimental data with sub-second latency.\nOne app to run the beamline, see the results, and hit pause if the sample misbehaves.\n' +
             '\r',
         
             '---\n' +
-            '[[b;grey;]Job with default color title]\n' +
-            '-\n' +
-            'anywhere\n' +
-            'July 2008 - 2010\n' +
+            '[[b;gray;]CCI Research Internship]\n' +
+            'Brookhaven National Laboratory\n' +
+            'Upton, NY\n' +
+            'August 2024  - December 2024\n' +
             '\n' +
-            'Description about this default color job' +
+            'Built a Python interpreter for a deposition chamber’s custom scripting language (yes, really).\nHooked it into EPICS and Bluesky so scientists could write macros and hit “run.”\nAlso made a Qt GUI to watch the magic happen, real-time!\n' +
+            '\r',
+        
+            '---\n' +
+            '[[b;gray;]Computer Science Tutor]\n' +
+            'Suffolk County Community College\n' +
+            'Selden, NY\n' +
+            'October 2023 - May 2024\n' +
+            '\n' +
+            'Debugging segfaults, recursion, and existential dread—one student at a time.\nHelped students conquer C, Java, data structures, and their fear of debuggers.\nOffice hours = therapy with code examples.\n' +
+            '\r',
+        
+            '---\n' +
+            '[[b;gray;]Undergraduate Resarch]\n' +
+            'Suffolk County Community College\n' +
+            'Selden, NY\n' +
+            'November 2022 - May 2023\n' +
+            '\n' +
+            'Built a data collection device with a Raspberry Pi, touchscreen GUI, 3D-printed housing, and custom sensors.\nMeasured ion concentration and flow rate using Hall effect magic and some spinning magnets.\nPresented the project at SURC with a poster and walked out with the I-SUCCESS Award.\n' +
+            '\r',
+        
+            '---\n' +
+            '[[b;gray;]IT Technician]\n' +
+            'Staples\n' +
+            'Patchogue, NY\n' +
+            'June 2022 - August 2024\n' +
+            '\n' +
+            'Installed SSDs, cleaned viruses, and resurrected customer laptops with a sigh and some compressed air.\nTaught non-tech folks how not to delete their OS and smiled through printer troubleshooting.\nMade Staples tech support feel like your favorite corner repair shop.\n' +
             '\r',
         
     
@@ -246,16 +249,18 @@ jQuery(document).ready(function($) {
     
         
             '---\n' +
-            '[[b;red;]Red Color training]\n' +
-            'June 2019 - July 2019\n' +
+            '[[b;gray;]Stony Brook University]\n' +
+            'September 2024 - May 2026\n' +
             
-                "Descrption about red color trianing\n" +
+                "B.S. Computer Science - GPA: 3.26 \/ 4.0\n" +
             
             "\r",
         
             '---\n' +
-            '[[b;grey;]Default color training]\n' +
-            'Sept 2004 - Jun 2008\n' +
+            '[[b;grey;]Suffolk County Community College]\n' +
+            'September 2022 - May 2024\n' +
+            
+                "A.S. Computer Science - GPA: 3.9 \/ 4.0\n" +
             
             "\r",
         
@@ -294,23 +299,59 @@ jQuery(document).ready(function($) {
     var skills = [
     
         
-            '[[b;grey;]Skill 1:]\n' +
-            progressBar( 90 ) +
-            '90' + '%\n' +
+            '[[b;grey;]Systems Programming:]\n' +
+            
+            
+            
+            'C, C\u002b\u002b, MIPS\/x86 Assembly, POSIX\/Linux APIs, multithreading, sockets — the low-level stuff that keeps things fast and real.\n' +
             
             '\r',
         
-            '[[b;grey;]Skill 2:]\n' +
-            progressBar( 30 ) +
-            '30' + '%\n' +
+            '[[b;grey;]Graphics \u0026 Multimedia:]\n' +
+            
+            
+            
+            'OpenGL, GLSL, SDL2, GLFW, ImGui, OpenAL, Renderdoc — real-time rendering, audio, UI overlays, and GPU debugging with RenderDoc.\n' +
             
             '\r',
         
-            '[[b;blue;]Skill 3:]\n' +
-            progressBar( 50 ) +
-            '50' + '%\n' +
+            '[[b;grey;]Tooling \u0026 Workflow:]\n' +
             
-            'Skill names can have colors too\n' +
+            
+            
+            'Make, CMake, Bash, Python, Lua, Git, GDB, Valgrind, Criterion, Doxygen, tmux, Vim, LaTeX — my daily driver toolkit.\n' +
+            
+            '\r',
+        
+            '[[b;grey;]Web Development:]\n' +
+            
+            
+            
+            'Java, Spring Boot, JavaScript, React, TypeScript, Python, Flask, HTML\/CSS, Tailwind — building clean backends and responsive frontends.\n' +
+            
+            '\r',
+        
+            '[[b;grey;]Databases:]\n' +
+            
+            
+            
+            'PostgreSQL, MySQL, MongoDB, SQLite — writing queries, designing schemas, and keeping data sane.\n' +
+            
+            '\r',
+        
+            '[[b;grey;]Scientific Computing:]\n' +
+            
+            
+            
+            'Python, EPICS, Bluesky, Bluesky Queue Server, Ophyd, NumPy, pandas, xarray, scikit-learn, matplotlib — scripting, analyzing, plotting, and controlling real lab hardware.\n' +
+            
+            '\r',
+        
+            '[[b;grey;]Testing \u0026 Documentation:]\n' +
+            
+            
+            
+            'Criterion, JUnit, Pytest, Doxygen, JavaDoc, Sphinx — I write code, then prove it works and document it like I mean it.\n' +
             
             '\r',
         
@@ -319,48 +360,13 @@ jQuery(document).ready(function($) {
 
     var softSkills = [
     
-        
-            '[[b;red;]SoftSkill 1:]\n' +
-            progressBar( 80 ) +
-            '80' + '%\n' + 
-            
-            '\r',
-        
-            '[[b;grey;]SoftSkill 2:]\n' +
-            progressBar( 90 ) +
-            '90' + '%\n' + 
-            
-            'Description\n' +
-            
-            '\r',
-        
-    
     ];
   
     var languages = [
     
-        
-            '[[b;Blue;]English:]\n' +
-            progressBar( 50 )+ 
-            '50' + '%\n' +
-            
-            '\r',
-        
-            '[[b;grey;]Gibberish:]\n' +
-            progressBar( 100 )+ 
-            '100' + '%\n' +
-            
-            'pasghettipigglywiggly\n' +
-            
-            '\r',
-        
-    
     ];
 
     var misc = [
-         
-        '[[b;teal;]This Section can have a different command name]\n' +
-        '[[;orange;]Here the title and the content can have different colors\nThe content can be multi\n\nline\n\nAnd spaces       will be respected as well\nThis section will have the default command: misc\nbut you can name it something else with the property\ncommandName: \u003cString\u003e\nGive it a shot and try and uncomment the line \ncommandName: newcommand\nnow instead of misc you can execute the newcommand for this section\nAuto completion will know it too! :D\n]\n',
          
     ];
 
@@ -388,7 +394,6 @@ jQuery(document).ready(function($) {
         projects,
         certifications,
         misc,
-        
         
         
         source,
@@ -468,8 +473,6 @@ jQuery(document).ready(function($) {
                 break;
             case 'skills':
                 
-                useLess = true;
-                
                 echoArray(skills);
                 break;
             case 'softskills':
@@ -488,7 +491,7 @@ jQuery(document).ready(function($) {
                 
                 term.echo(certifications);
                 break;
-            case 'newcommand':
+            case 'misc':
                 
                 echoArray(misc);
                 break;
@@ -521,7 +524,7 @@ jQuery(document).ready(function($) {
             
             
             case 'version':
-                term.echo("2.0.0");
+                term.echo("1.0.0");
                 break;
             
             
@@ -552,13 +555,13 @@ jQuery(document).ready(function($) {
           term.pause();
           term.typing('echo', 1, 'User request detected\nReserving Cloud Resources\n............................\nCloud Network ready\n........\nCloud Instance ready\n.......................\nInternet Breakout Ready, but Pong is preferred \n\nInititating CloudOS\nCloudOS Kernel Version 1.4.2: Sat February 29 23:21:41 CEST 2025; root:xnu-1699.22.73~1\/RELEASE_ARM_64\nLoglevel = quiet\n......\n............\n..................\n........................\n..............................\n....................................\n\nCopyright 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994\nThe Regents of the University of California. All rights reserved.\n\nCopyright 2024, 2025\nTerminalCV. MIT License (MIT)\n\n[CloudOSBoot1]: ready\n[CloudOSBoot2]: ready\n[Webserver]: ready \n[HUGO]: ready\n[TerminalCV]: ready\n\nBoot Complete, accepting user input.\n', function() {
             term.clear();
-            term.echo("[[b;white;]‎ _                      _             _  _______      __\n| |                    (_)           | |\/ ____\\ \\    \/ \/\n| |_ ___ _ __ _ __ ___  _ _ __   __ _| | |     \\ \\  \/ \/ \n| __\/ _ \\ \u0027__| \u0027_ \u0060 _ \\| | \u0027_ \\ \/ _\u0060 | | |      \\ \\\/ \/  \n| ||  __\/ |  | | | | | | | | | | (_| | | |____   \\  \/   \n \\__\\___|_|  |_| |_| |_|_|_| |_|\\__,_|_|\\_____|   \\\/\n\nWelcome to my online resume\n\nType \u0027help\u0027 for a list of available commands\n]");
+            term.echo("[[b;white;]‎   ___               _             \n  |_  |             | |            \n    | | ___  _ __ __| | __ _ _ __  \n    | |\/ _ \\| \u0027__\/ _\u0060 |\/ _\u0060 | \u0027_ \\ \n\/\\__\/ \/ (_) | | | (_| | (_| | | | |\n\\____\/ \\___\/|_|  \\__,_|\\__,_|_| |_|\n\nWelcome to my corner of the internet!\n\nType \u0027help\u0027 for a list of available commands\n]");
           });
           term.resume();
           },
         
 
-        prompt: '[[;red;][][[;pink;]user@terminalCV][[;red;]\\]][[;grey;]-][[;red;][][[;blue;]~\/terminalcv][[;red;]\\]][[;orange;]: ]',
+        prompt: '[[;red;][][[;purple;]jordan@irl][[;red;]\\]][[;grey;]-][[;red;][][[;gray;]~\/mysite][[;red;]\\]][[;orange;]: ]',
 
         keydown: function(e, term) {
             if (animation) {
