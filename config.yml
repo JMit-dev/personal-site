@@ -180,12 +180,12 @@ params:
   education:
     details:
       - courseName: Stony Brook University
-        color: blue
+        color: cyan
         date: September 2024 - May 2026
         description: "B.S. Computer Science - GPA: 3.26 / 4.0"
 
       - courseName: Suffolk County Community College
-        color: blue
+        color: cyan
         date: September 2022 - May 2024
         description: "A.S. Computer Science - GPA: 3.9 / 4.0"
 
@@ -194,31 +194,31 @@ params:
     #   useLess: true
     details:
       - name: Systems Programming
-        color: green
+        color: purple
         description: C, C++, MIPS/x86 Assembly, POSIX/Linux APIs, multithreading, sockets — the low-level stuff that keeps things fast and real.
 
       - name: Graphics & Multimedia
-        color: green
+        color: purple
         description: OpenGL, GLSL, SDL2, GLFW, ImGui, OpenAL, Renderdoc — real-time rendering, audio, UI overlays, and GPU debugging with RenderDoc.
 
       - name: Tooling & Workflow
-        color: green
+        color: purple
         description: Make, CMake, Bash, Python, Lua, Git, GDB, Valgrind, Criterion, Doxygen, tmux, Vim, LaTeX — my daily driver toolkit.
 
       - name: Web Development
-        color: green
+        color: purple
         description: Java, Spring Boot, JavaScript, React, TypeScript, Python, Flask, HTML/CSS, Tailwind — building clean backends and responsive frontends.
 
       - name: Databases
-        color: green
+        color: purple
         description: PostgreSQL, MySQL, MongoDB, SQLite — writing queries, designing schemas, and keeping data sane.
 
       - name: Scientific Computing
-        color: green
+        color: purple
         description: Python, EPICS, Bluesky, Bluesky Queue Server, Ophyd, NumPy, pandas, xarray, scikit-learn, matplotlib — scripting, analyzing, plotting, and controlling real lab hardware.
 
       - name: Testing & Documentation
-        color: green
+        color: purple
         description: Criterion, JUnit, Pytest, Doxygen, JavaDoc, Sphinx — I write code, then prove it works and document it like I mean it.  
   projects:
     details:
