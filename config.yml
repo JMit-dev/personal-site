@@ -9,7 +9,7 @@ params:
   prompt:
     core:
       text: "jordan@irl"
-      color: "purple"
+      color: "cyan"
       before: "["
       beforeColor: "red"
       after: '\]'
@@ -22,7 +22,7 @@ params:
       before: "["
       beforeColor: "red"
       text: "~/mysite"
-      color: "gray"
+      color: "cyan"
       after: '\]'
       afterColor: "red"
     extra:
@@ -118,7 +118,7 @@ params:
     #   useLess: true
     details:
       - jobTitle: Undergraduate Research
-        color: gray
+        color: green
         company: "Stony Brook University"
         location: Stony Brook, NY
         date: February 2025 - Present
@@ -128,7 +128,7 @@ params:
           It’s like Portal, but I wrote it!
 
       - jobTitle: SULI Reasearch Internship
-        color: gray
+        color: green
         company: "Brookhaven National Laboratory"
         location: Upton, NY
         date: June 2025 - August 2025
@@ -138,7 +138,7 @@ params:
           One app to run the beamline, see the results, and hit pause if the sample misbehaves.
 
       - jobTitle: CCI Research Internship
-        color: gray
+        color: green
         company: "Brookhaven National Laboratory"
         location: Upton, NY
         date: August 2024  - December 2024
@@ -148,7 +148,7 @@ params:
           Also made a Qt GUI to watch the magic happen, real-time!
 
       - jobTitle: Computer Science Tutor
-        color: gray
+        color: green
         company: "Suffolk County Community College"
         location: Selden, NY
         date: October 2023 - May 2024
@@ -158,7 +158,7 @@ params:
           Office hours = therapy with code examples.
 
       - jobTitle: Undergraduate Resarch
-        color: gray
+        color: green
         company: "Suffolk County Community College"
         location: Selden, NY
         date: November 2022 - May 2023
@@ -168,7 +168,7 @@ params:
           Presented the project at SURC with a poster and walked out with the I-SUCCESS Award.
 
       - jobTitle: IT Technician
-        color: gray
+        color: green
         company: "Staples"
         location: Patchogue, NY
         date:  June 2022 - August 2024
@@ -180,11 +180,12 @@ params:
   education:
     details:
       - courseName: Stony Brook University
-        color: gray
+        color: blue
         date: September 2024 - May 2026
         description: "B.S. Computer Science - GPA: 3.26 / 4.0"
 
       - courseName: Suffolk County Community College
+        color: blue
         date: September 2022 - May 2024
         description: "A.S. Computer Science - GPA: 3.9 / 4.0"
 
@@ -193,24 +194,31 @@ params:
     #   useLess: true
     details:
       - name: Systems Programming
+        color: green
         description: C, C++, MIPS/x86 Assembly, POSIX/Linux APIs, multithreading, sockets — the low-level stuff that keeps things fast and real.
 
       - name: Graphics & Multimedia
+        color: green
         description: OpenGL, GLSL, SDL2, GLFW, ImGui, OpenAL, Renderdoc — real-time rendering, audio, UI overlays, and GPU debugging with RenderDoc.
 
       - name: Tooling & Workflow
+        color: green
         description: Make, CMake, Bash, Python, Lua, Git, GDB, Valgrind, Criterion, Doxygen, tmux, Vim, LaTeX — my daily driver toolkit.
 
       - name: Web Development
+        color: green
         description: Java, Spring Boot, JavaScript, React, TypeScript, Python, Flask, HTML/CSS, Tailwind — building clean backends and responsive frontends.
 
       - name: Databases
+        color: green
         description: PostgreSQL, MySQL, MongoDB, SQLite — writing queries, designing schemas, and keeping data sane.
 
       - name: Scientific Computing
+        color: green
         description: Python, EPICS, Bluesky, Bluesky Queue Server, Ophyd, NumPy, pandas, xarray, scikit-learn, matplotlib — scripting, analyzing, plotting, and controlling real lab hardware.
 
       - name: Testing & Documentation
+        color: green
         description: Criterion, JUnit, Pytest, Doxygen, JavaDoc, Sphinx — I write code, then prove it works and document it like I mean it.  
   projects:
     details:
