@@ -213,22 +213,57 @@ params:
       - name: Testing & Documentation
         description: Criterion, JUnit, Pytest, Doxygen, JavaDoc, Sphinx — I write code, then prove it works and document it like I mean it.  
   projects:
-    # settings:
-    #   useLess: true
     details:
-      - title: Project Red
+      - title: Odin
         color: red
-        date: since 2019
-        link: https://example.com
-        description: Describing red stuff
+        date: Since June 2025
+        link: https://github.com/JMit-dev/Odin
+        description: My custom OpenGL rendering library. Is it a framework? A sandbox? A mistake? Only the gods know.
 
-      - title: Project Blue
-        color: blue
-        date: since 2016
-        link: https://example.com/blue
-        #description: nothing to describe
+      - title: Dot Matrix With Stereo Sound
+        color: red
+        date: Since June 2025
+        link: https://github.com/JMit-dev/DMWSS
+        description: A Game Boy emulator written in C++ with OpenGL. Accurate, fast, and plays Pokémon like it’s 1999.
 
-      - title: Project Default
-        date: Since 2017
-        link: https://example.com/default
-        #description: not there either
+      - title: OpenGL Portal Demo
+        color: red
+        date: April 2025 - May 2025
+        link: https://github.com/JMit-dev/GL_Portal
+        description: Real-time recursive portals using stencil buffers and camera transforms. Inspired by *Portal*, powered by OpenGL.
+
+      - title: termplayer
+        color: red
+        date: September 2024
+        link: https://github.com/JMit-dev/termplayer
+        description: A full-featured ASCII video player for the terminal — uses ffmpeg, ytdlp, and curses to play video *with audio* in raw text.
+
+      - title: Neovim config
+        color: red
+        date: Since September 2024
+        link: https://github.com/JMit-dev/neovim-config
+        description: A highly tuned Neovim config based on Kickstart.nvim — fast startup, smart keybinds, and no bloat.
+
+      - title: Intel 8080 space invaders cabinet emulator
+        color: red
+        date: August 2024
+        link: https://github.com/JMit-dev/i8080-spaceinvaders-emulator
+        description: A full Intel 8080 emulator that runs the original Space Invaders arcade ROM
+
+      - title: Course Assigner
+        color: red
+        date: September 2023 - October 2023
+        link: https://github.com/JMit-dev/CourseAssigner
+        description: Automated SCCC’s notoriously messy professor-course matching spreadsheet. JavaFX GUI, Excel parser.
+
+      - title: WordWeaver
+        color: red
+        date: April 2023
+        link: https://github.com/JMit-dev/WordWeaver
+        description: A JavaFX chatbot that uses a Markov chain model to generate eerie, pseudo-intelligent responses.
+
+      - title: Linux dotfiles
+        color: red
+        date: Since August 2022
+        link: https://github.com/JMit-dev/dotfiles
+        description: My Arch-based Linux setup. Includes riced dwm config, custom scripts, Vim, tmux.
