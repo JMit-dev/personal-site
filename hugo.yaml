@@ -234,13 +234,13 @@ params:
 
   # Achievements
   achievements:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - title: I-SUCCESS Award
-        content: Won at SURC for Raspberry Pi-based data collection device project.
-        url: https://www.sunysuffolk.edu/
-        image: /images/achievement.jpg
+      - title: SBUHacks 2025 MLH award for best use of Gemini API
+        content: Developed a Gemini-powered lecture notes generator that transforms audio recordings into comprehensive study materials including transcriptions, smart summaries, interactive flashcards, and multilingual translations across 40+ languages with a custom input token format that saves about 50% tokens compared to JSON.
+        url: https://devpost.com/software/lectura-f3bxwo?ref_content=my-projects-tab&ref_feature=my_projects
+        image: /images/gemini.png
 
   # projects
   projects:
